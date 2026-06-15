@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Growing Grass</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="intro">
+      <h1>Is the grass green today 🤔</h1>
+
+    </section>
+
+    <section class="scene" id="scene" aria-label="Interactive drag and drop grass scene">
+      <div class="sun"></div>
+
+      <div class="ground">
+        <div class="grass-strip" id="grass"></div>
+        <div class="ground-line"></div>
+      </div>
+
+      <div class="character" data-character-id="1">
+        <img class="character-head" src="assets/char1.png" alt="Character head 1" draggable="false" />
+        <div class="stick-body" aria-hidden="true">
+          <span class="torso"></span>
+          <span class="arm arm-left"></span>
+          <span class="arm arm-right"></span>
+          <span class="leg leg-left"></span>
+          <span class="leg leg-right"></span>
+        </div>
+      </div>
+
+      <div class="character" data-character-id="2">
+        <img class="character-head" src="assets/char2.png" alt="Character head 2" draggable="false" />
+        <div class="stick-body" aria-hidden="true">
+          <span class="torso"></span>
+          <span class="arm arm-left"></span>
+          <span class="arm arm-right"></span>
+          <span class="leg leg-left"></span>
+          <span class="leg leg-right"></span>
+        </div>
+      </div>
+
+      <div class="character" data-character-id="3">
+        <img class="character-head" src="assets/char3.png" alt="Character head 3" draggable="false" />
+        <div class="stick-body" aria-hidden="true">
+          <span class="torso"></span>
+          <span class="arm arm-left"></span>
+          <span class="arm arm-right"></span>
+          <span class="leg leg-left"></span>
+          <span class="leg leg-right"></span>
+        </div>
+      </div>
+
+      <div class="character" data-character-id="4">
+        <img class="character-head" src="assets/char4.png" alt="Character head 4" draggable="false" />
+        <div class="stick-body" aria-hidden="true">
+          <span class="torso"></span>
+          <span class="arm arm-left"></span>
+          <span class="arm arm-right"></span>
+          <span class="leg leg-left"></span>
+          <span class="leg leg-right"></span>
+        </div>
+      </div>
+
+      <div class="character" data-character-id="5">
+        <img class="character-head" src="assets/char5.png" alt="Character head 5" draggable="false" />
+        <div class="stick-body" aria-hidden="true">
+          <span class="torso"></span>
+          <span class="arm arm-left"></span>
+          <span class="arm arm-right"></span>
+          <span class="leg leg-left"></span>
+          <span class="leg leg-right"></span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
